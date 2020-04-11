@@ -2,11 +2,11 @@
 #include <string>
 int main(int argsLength, char *args[]) {
 	if (argsLength < 2) {
-		printf("Error. Program needs 2 arguments.");
-		return(1);
+        printf("Error. Program needs 2 arguments.");
+        return(1);
 	}
-  	long long p1 = std::stoll(args[1]);
-	long long p2 = std::stoll(args[2]);
+    long long p1 = std::stoll(args[1]);
+    long long p2 = std::stoll(args[2]);
     long d=2147483647;
     long a=16807;
     long b=48271;
