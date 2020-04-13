@@ -3,10 +3,11 @@
 
 class Generator {
 private:
-	const long factor;
+	static unsigned nGeneratorsCount;
+	const int factor;
+	int generateFactor(unsigned nGeneratorsCount);
 public:
-	Generator(long factor);
-	long long generateNumber(long long parameter);	
+	Generator();
+	long long generateNumber(long long parameter);
 };
 #endif
-

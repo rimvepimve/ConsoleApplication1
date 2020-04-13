@@ -3,7 +3,6 @@
 
 class Comparator {
 public:
-	bool compareBytes(long long val1, long long val2);
+	static bool compareLastBytes(long long val2[], int arrSize);
 };
 #endif
-
